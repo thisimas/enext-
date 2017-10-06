@@ -1,0 +1,181 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+#fundo {
+	background-color: #ffffff;
+	width: 100%;
+}
+
+
+#cabecalho {
+	height: auto;
+	padding: 50px 4%;
+	width: 90.7%;
+	display: table;
+}
+
+#caixalogo {
+	font-family: 'Oswald', sans-serif; 
+	float: left;
+	line-height: 28px;
+	text-align: center;
+	width: 25%;
+		
+}
+#logo img{
+	width: 100%;
+
+}
+
+
+
+.buscar {
+	border: solid 1px black;
+	border-radius: 2.5px;	
+	margin-left: 5.8%;	
+
+	float: left;
+	width: 27%;
+}
+
+
+#lupa{
+	background: none;
+	background: url(../imgs/icons/lupa.jpg) center no-repeat;
+	border: 0px;
+	float: left;	
+	padding: 10px 20px 10px 20px;
+		
+
+		
+}
+.inputbuscar {
+	border: 0px;
+	float: left;
+	padding: 10px;
+	
+}
+
+
+	
+#textocabecalho {
+	color: #D73A1E;
+	float: left;
+	margin-left: 9.7%;		
+	font-size: 20px;
+	
+	
+}
+#bag {
+	background: url(../imgs/icons/caldeirao.jpg) left no-repeat; 
+	color: #B3B3C3;
+	float: right;
+	padding: 10px 10px 10px 60px;
+	
+}
+#bagValor {
+	color: #D73A1E;
+	font-weight: bold;
+
+}
+#closeIcon {
+	margin: 2.5px 0 0 4%;
+
+}
+
+
+/*-------------------------------------------------------
+		MAIN MENU
+-------------------------------------------------------*/
+#barramenu {
+	background-color: #523468;
+	color: #AD758B;
+	padding: 25px 5%;
+	width: 90%;	
+	display: table;
+	
+}
+
+#MenuLista {	
+	list-style: none;
+}
+#MenuLista li, #sign li {
+	display: inline-block; 	
+}
+#MenuLista li a {
+	background: url(../imgs/icons/subMenu_arrow.jpg) right no-repeat;
+	border-radius: 5px;
+	color: #ffffff;
+	font-size: .85em;
+	font-weight: bold;
+	margin-right: 10px;
+	padding: 15px 25px 15px 15px;
+	text-decoration: none;
+}
+#MenuLista li:nth-last-child(2) a, #MenuLista li:last-child a  {
+	background: none;
+	margin-right: 0;
+	padding: 15px;
+}
+#MenuLista li:last-child {
+	float: right;
+}
+#MenuLista li a:hover {
+	background-color: #422A53;
+}
+
+#galeria {
+	padding: 25px 4%;
+	width: 92%;
+
+}
+#titulogaleria {
+	
+	margin-bottom: 50px;
+	font-size: 16px;
+	font-weight: bold;
+	width: 100%;
+}
+.price {
+	color: #D73A1E;	
+}
+
+#galeriafundo {
+  overflow: auto;
+  width: 100%;
+}
+.porçao { 		
+  float: left;
+  margin-bottom: 20px;
+  padding-bottom: 25%;
+  position: relative;
+  text-align: center;
+  width: 25%; 
+
+}
+.boxContent {
+  cursor: pointer;
+  left: 10px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  bottom: 10px;
+  overflow: hidden;
+}
+.boxContent img {
+  width: 80%; 
+}
+.boxContent .legenda {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  color: #000000;
+  font-size: 1em; 
+  font-weight: bold; 
+  text-align: center;
+}
+
